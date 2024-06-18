@@ -11,9 +11,7 @@ namespace Assigment
             InitializeComponent();
             userManager.SuccessfulLogin += UserManager_SuccessfulLogin;
             userManager.UnsuccessfulLogin += UserManager_UnsuccessfulLogin;
-            
-
-        }
+         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
